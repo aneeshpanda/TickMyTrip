@@ -23,8 +23,8 @@
             </div>
             <div class=" col-lg-6">
                 <h1>What is the type of your trip?</h1>
-                <form action="/" method="post">
-                    <select class="mt-5 pt-2 pb-2" name="purpose">
+                <form name="myform" action="/" method="post">
+                    <select class="mt-5 pt-2 pb-2" name="type">
                         <option value="   "> </option>
                         <option value="Business Trip">Business Trip</option>
                         <option value="Family Trip">Family Trip</option>
@@ -42,8 +42,8 @@
                 <h1>Q2.</h1>
             </div>
             <div class=" col-lg-6">
-                <h1>What type of trip is it?</h1>
-                <select class="mt-5 pt-2 pb-2" name="purpose">
+                <h1>What is your mode of transport?</h1>
+                <select class="mt-5 pt-2 pb-2" name="mode">
                     <option value="   "> </option>
                     <option value="Road Trip">Road Trip</option>
                     <option value="Cruise">Cruise</option>
@@ -64,7 +64,7 @@
             </div>
             <div class=" col-lg-6">
                 <h1>Do you know how is the weather like at the destination?</h1>
-                <select class="mt-5 pt-2 pb-2" name="purpose">
+                <select class="mt-5 pt-2 pb-2" name="weathertype">
                     <option value="   "> </option>
                     <option value="Yes">Yes</option>
                     <option value="No">No</option>
@@ -85,7 +85,7 @@
             </div>
             <div class=" col-lg-6">
                 <h1>From: </h1>
-                <input class="mt-5 pt-2 pb-2" type="text">
+                <input class="mt-5 pt-2 pb-2" name="from" type="text">
             </div>
             <div class=" col-lg-3">
             </div>
@@ -100,7 +100,7 @@
             </div>
             <div class=" col-lg-6">
                 <h1>To:</h1>
-                <input class="mt-5 pt-2 pb-2" type="text">
+                <input class="mt-5 pt-2 pb-2" name="to" type="text">
                 </form>
             </div>
             <div class=" col-lg-3">
@@ -118,7 +118,7 @@
             </div>
             <div class=" col-lg-6">
                 <h1>What is the weather like at the place you want to go?</h1>
-                <select class="mt-5 pt-2 pb-2" name="purpose">
+                <select class="mt-5 pt-2 pb-2" name="weather">
                     <option value="   "> </option>
                     <option value="Sunny">Sunny</option>
                     <option value="Chilly">Chilly</option>
