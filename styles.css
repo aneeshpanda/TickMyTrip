@@ -1,0 +1,30 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+.welcome{
+    line-height: 1.5;
+}
+
+
+h1{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+t1{
+    font-size: 1.5rem;
+}
+
+.getstarted{
+    background-color: #7959FF;
+    color: white;
+    height: 40px;
+    width: 175px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.getstarted:hover{
+    color: white;
+}
