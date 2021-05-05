@@ -18,11 +18,10 @@
 document.querySelector(".next").addEventListener("click", function (event) {
   if (document.myform.weathertype.value === "Yes") {
 
-
-
     document.querySelector("#or").innerHTML =
       "<div class='questions container-fluid'> <div class='row pt-5'> <div class=' col-lg-2'> </div> <div class=' col-lg-1 pl-5'> <h1>Q4.</h1> </div> <div class=' col-lg-6'> <h1>What is the weather like at the place you want to go?</h1> <form name='myform1' action='/' method='post'> <select class='mt-5 pt-2 pb-2' name='weather'> <option value=' '> </option> <option value='Sunny'>Sunny</option> <option value='Chilly'>Chilly</option> <option value='Rainy'>Rainy</option> <option value='Snowy'>Snowy</option> <option value='Dry'>Dry</option> </select> <br> <a class='weatherbtn btn getstarted mt-lg-5' role='button'>Submit</a> </form> </div> <div class=' col-lg-3'> </div> <img src='./Group 273.png'> </div> </div>";
-        let weather = document.myform1.weather.value;
+        let weather = document.myform1.weather.value
+
         document.querySelector(".weatherbtn").addEventListener("click", function (event) {
             console.log(weather);
         if(weather==="Dry"){
@@ -62,6 +61,8 @@ document.querySelector(".next").addEventListener("click", function (event) {
   
     }
 });
+
+
 
 
 
