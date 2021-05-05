@@ -29,6 +29,21 @@ document.querySelector(".next").addEventListener("click", function (event) {
                 document.querySelector("#or2").innerHTML = 
                   "<a class='weatherbtn btn getstarted mt-lg-5' href = './My Site/dry.html' role='button'>Next</a>";
             }
+            else if(weather=='Rainy'){
+                console.log("Test")
+                document.querySelector("#or2").innerHTML = 
+                  "<a class='weatherbtn btn getstarted mt-lg-5' href = './My Site/rainy.html' role='button'>Next</a>";
+            }
+            else if(weather=='Chilly'){
+                console.log("Test")
+                document.querySelector("#or2").innerHTML = 
+                  "<a class='weatherbtn btn getstarted mt-lg-5' href = './My Site/chilly.html' role='button'>Next</a>";
+            }
+            else if(weather=='Sunny'){
+                console.log("Test")
+                document.querySelector("#or2").innerHTML = 
+                  "<a class='weatherbtn btn getstarted mt-lg-5' href = './My Site/sunny.html' role='button'>Next</a>";
+            }
         });
         
     }
