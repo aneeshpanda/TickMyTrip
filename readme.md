@@ -2,6 +2,8 @@
 
 # **TickMyTrip**
 
+
+
 ## Problem Statement
 
 *We often forget things to carry when we are going on a trip. To tackle this problem. Create a solution to help passengers maintain a checklist depending on the type of trip.*
@@ -39,3 +41,5 @@
 
 ## Important URLs
 
+## [TickMyTrip](https://aneeshpanda.github.io/TickMyTrip/)
+## [Figma Wireframes](https://www.figma.com/file/B8kddmaFphXBqUBKR0Umuc/Tickmytrip?node-id=76%3A114)
