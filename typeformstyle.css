@@ -44,3 +44,9 @@ select {
     top: 213.3vw;
     left: 62vw;    
 }
+
+.sun{
+    position: absolute;
+    top: 148.3vw;
+    left: 72vw;
+}
