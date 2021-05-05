@@ -2,18 +2,25 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-html {
-  height: 100%;
-}
+
 .questions {
-  height: 25vw;
-  margin-top: 12.5vw;
+padding-top: 12.5vw;
+  padding-bottom: 12.5vw;
 }
+
 
 select {
     width: 540px;
 }
 
-input {
+.location {
     width: 540px;
+}
+
+.getstarted{
+    background-color: #7959FF;
+    color: white;
+}
+.getstarted:hover{
+    color: white;
 }

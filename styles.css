@@ -23,8 +23,12 @@ t1{
     border-radius: 10px;
     font-size: 1.2rem;
     font-weight: bold;
+    margin-top: 9.5rem;
 }
 
+.fun{
+    width: 35rem;
+}
 .getstarted:hover{
     color: white;
 }
