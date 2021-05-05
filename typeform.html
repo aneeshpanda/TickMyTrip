@@ -14,17 +14,35 @@
 </head>
 
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light">
+        <a href="./index.html"> <img class="pl-5" src="./Group 269.png" alt=""> </a> 
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-end collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="navbar-brand pr-5" style="font-weight: 600; font-size: 1.25rem;" href="./index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand pr-5" style="font-weight: 600; font-size: 1.25rem;" href="#">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <div class="main">
         <div class="questions container-fluid">
-            <div class="row pt-5">
+            <div class="row">
+                
                 <div class=" col-lg-2">
                 </div>
                 <div class=" col-lg-1 pl-lg-5">
                     <h1>Q1.</h1>
                 </div>
-                <div class="type col-lg-6">
-                    <h1>What is the type of your trip?</h1>
+                <div class="type col-lg-7">
+                    <h1>What is the type of your trip? <img src="./Vector 56.png"> </h1>
                     <form name="myform" action="/" method="post">
                         <select class="mt-5 pt-2 pb-2" name="type">
                             <option value="   "> </option>
@@ -34,20 +52,25 @@
                         <!-- <input class="ml-1 next" type="button" value="Next"> -->
                         <br>
                         <a class="btn getstarted mt-lg-5" href="#mode" role="button">Next</a>
+                        
                 </div>
-                <div class=" col-lg-3">
+                <img class="suitcase" src="./suitcases 1.png" alt="">
+                <div class="col-lg-2 mr-0 mt-lg-5">
+                    
                 </div>
+
+                <img src="./Group 273.png" alt="">
             </div>
         </div>
-         <div id="mode" class="questions container-fluid">
-            <div  class="row pt-5">
+        <div id="mode" class="questions container-fluid">
+            <div class="row pt-5">
                 <div class=" col-lg-2">
                 </div>
                 <div class=" col-lg-1 pl-lg-5">
                     <h1>Q2.</h1>
                 </div>
-                <div class=" col-lg-6">
-                    <h1>What is your mode of transport?</h1>
+                <div class=" col-lg-7">
+                    <h1>What is your mode of transport?<img src="./Vector 56.png"></h1>
                     <select class="mt-5 pt-2 pb-2" name="mode">
                         <option value="   "> </option>
                         <option value="Road Trip">Road Trip</option>
@@ -57,12 +80,14 @@
                     <br>
                     <a class="btn getstarted mt-lg-5" href="#weathertype" role="button">Next</a>
                 </div>
-                <div class=" col-lg-3">
+        <img class ="boat" src="./Group 275.png" alt="">
+                <div class="col-lg-2 mr-0 mt-lg-5">
                 </div>
+                <img src="./Group 273.png" style="padding-top: 2.5rem;" alt="">
             </div>
-        </div> 
+        </div>
 
-         <div id="weathertype" class="questions container-fluid">
+        <div id="weathertype" class="questions container-fluid">
             <div class="row pt-5">
                 <div class=" col-lg-2">
                 </div>
@@ -81,14 +106,15 @@
                 </div>
                 <div class=" col-lg-3">
                 </div>
+
+                <img src="./Group 273.png" alt="">
             </div>
-        </div> 
+        </div>
 
         <div id="or">
-        </div> 
+        </div>
 
-
-         <!-- <div class="questions container-fluid">
+        <!-- <div class="questions container-fluid">
             <div class="row pt-5">
                 <div class=" col-lg-2">
                 </div>
@@ -113,7 +139,7 @@
                 </div>
             </div>
         </div>  -->
-
+        
 
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

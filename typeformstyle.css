@@ -5,7 +5,7 @@
 
 .questions {
 padding-top: 12.5vw;
-  padding-bottom: 12.5vw;
+padding-bottom: 12.5vw;
 }
 
 
@@ -23,4 +23,24 @@ select {
 }
 .getstarted:hover{
     color: white;
+}
+
+.circlish{
+    margin-top: -8rem;
+}
+
+.suitcase{
+    position: absolute;
+    top: 25vw;
+    left: 75vw;
+}
+.boat{
+    position: absolute;
+    top: 85.3vw;
+    left: 72vw;    
+}
+.aeroplane{
+    position: absolute;
+    top: 213.3vw;
+    left: 62vw;    
 }
